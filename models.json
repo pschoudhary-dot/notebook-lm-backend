@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "created": 1700000000,
+        "id": "claude-3-5-sonnet-20240620",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 15,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "claude-3-5-sonnet",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 15,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 2,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "deepseek-r1",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 2.19,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "deepseek-v3",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 1.28,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "gpt-4o",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 5,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "gpt-4o-2024-05-13",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 5,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      },
+      {
+        "created": 1700000000,
+        "id": "Meta-Llama-3.3-70B-Instruct-Turbo",
+        "object": "model",
+        "owned_by": "DevsDoCode",
+        "owner_cost_per_million_tokens": 0.3,
+        "permission": [],
+        "user_cost_per_million_tokens": 0
+      }
+    ],
+    "object": "list"
+  }

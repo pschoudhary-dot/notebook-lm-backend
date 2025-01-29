@@ -1,0 +1,6 @@
+1. Prompt for Audio Generation
+"Generate an engaging audio summary of the document I uploaded titled '[Insert Document Title]'. The summary should capture the main points and key insights in a clear and concise manner, lasting no longer than 3 minutes."
+2. Prompt for Content Outline
+"Create a detailed content outline for a blog post based on the topic '[Insert Topic]'. The outline should include an SEO-friendly title, meta description, suggested headings and subheadings, key points to cover under each section, recommended word count, and relevant keywords to target."
+3. Prompt for Chatting
+"I'd like to have a conversation about the themes and concepts in the book '[Insert Book Title]'. Please ask me questions that will help deepen my understanding of the material and encourage critical thinking about its implications."
