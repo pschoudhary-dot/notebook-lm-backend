@@ -28,6 +28,7 @@ class ModelManager:
         # Define available models
         self.models = {
             "llama-3.3-70b-versatile": ModelInfo("llama-3.3-70b-versatile", ModelProvider.GROQ, 0.3),
+            "deepseek-r1-distill-llama-70b": ModelInfo("deepseek-r1-distill-llama-70b", ModelProvider.GROQ, 0.3),
             "claude-3-5-sonnet-20240620": ModelInfo("claude-3-5-sonnet-20240620", ModelProvider.OPENAI, 15),
             "deepseek-r1": ModelInfo("deepseek-r1", ModelProvider.OPENAI, 2.19),
             "deepseek-v3": ModelInfo("deepseek-v3", ModelProvider.OPENAI, 1.28),
