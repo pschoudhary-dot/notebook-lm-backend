@@ -1,7 +1,8 @@
 from datetime import datetime
+import asyncio
+import platform     
 import os
 import tempfile
-import asyncio
 import mimetypes
 from typing import Dict
 from docx import Document as DocxDocument
@@ -17,6 +18,7 @@ from ProcessingResult import ProcessingResult
 class DocumentProcessor:
     def __init__(self):
         self.headers = {"Authorization": f"Bearer {os.getenv('HF_API_KEY')}"}
+
         if not self.headers["Authorization"]:
             raise ValueError("HF_API_KEY not found in environment variables")
             

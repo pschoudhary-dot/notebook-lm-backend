@@ -58,6 +58,9 @@ class ModelManager:
             openai_api_base="https://api.sree.shop/v1"
         )
     
+    def model_exists(self, model_name: str) -> bool:
+        return model_name in self.models
+    
     def list_models(self):
         return [
             {

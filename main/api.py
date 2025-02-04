@@ -2,7 +2,13 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 import uuid
+import nest_asyncio
+nest_asyncio.apply()
 import asyncio
+import sys
+# Add this at the very top of your script
+if sys.platform == "win32":
+    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 from DocumentProcessor import DocumentProcessor
 from PodcastGenerator import PodcastProcessor
 from RagSystem import RAGSystem, process_files_with_progress
